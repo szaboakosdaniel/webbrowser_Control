@@ -42,12 +42,17 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
 import android.widget.Button;
+import android.widget.EditText;
 import android.view.View;
+
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.util.Enumeration;
 
 public class MainActivity extends AppCompatActivity {
 
     private volatile boolean isRunning = false;
-    String serverIP = "192.168.1.103"; // Pontokkal elválasztva
+    String serverIP = "192.168.1.5"; // Pontokkal elválasztva
     int serverPort = 12345;
     Socket socket;
     OutputStreamWriter out;
@@ -58,32 +63,34 @@ public class MainActivity extends AppCompatActivity {
         messageThread.interrupt();
     }
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         Button button= (Button) findViewById(R.id.button);
         Button button2= (Button) findViewById(R.id.button2);
         Button button3= (Button) findViewById(R.id.button3);
+        Button button4= (Button) findViewById(R.id.button4);
+        Button button5= (Button) findViewById(R.id.button5);
+        EditText url =(EditText) findViewById(R.id.url);
         // Hálózati műveleteket nem végezhetünk a fő szálon
 
           networkThread = new Thread(new Runnable() {
             @Override
             public void run() {
-                try {
-                    socket = new Socket(serverIP, serverPort);
-                    out = new OutputStreamWriter(socket.getOutputStream());
-                    writer = new BufferedWriter(out);
-                   // message = "hello";
-                    // writer.write(message);
-                    //writer.newLine();
-                   // writer.flush();
-                   // writer.close();
-                    //out.close();
-                    //socket.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
+                if (serverIP != null) {
+                    try {
+                        socket = new Socket(serverIP, serverPort);
+                        out = new OutputStreamWriter(socket.getOutputStream());
+                        writer = new BufferedWriter(out);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                 }
+
 
             }
         });
@@ -101,7 +108,8 @@ public class MainActivity extends AppCompatActivity {
                             // socket = new Socket(serverIP, serverPort);
                             //out = new OutputStreamWriter(socket.getOutputStream());
                             // BufferedWriter writer = new BufferedWriter(out);
-                            message = "hello";
+
+                            message = "open"+"đ"+url.getText().toString();
                             writer.write(message);
                             writer.newLine();
                             writer.flush();
@@ -131,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                             // socket = new Socket(serverIP, serverPort);
                             //out = new OutputStreamWriter(socket.getOutputStream());
                             // BufferedWriter writer = new BufferedWriter(out);
-                            message = "korte";
+                            message = "play_stop";
                             writer.write(message);
                             writer.newLine();
                             writer.flush();
@@ -160,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
                             // socket = new Socket(serverIP, serverPort);
                             //out = new OutputStreamWriter(socket.getOutputStream());
                             // BufferedWriter writer = new BufferedWriter(out);
-                            message = "alma";
+                            message = "next";
                             writer.write(message);
                             writer.newLine();
                             writer.flush();
@@ -179,7 +187,62 @@ public class MainActivity extends AppCompatActivity {
                 messageThread.start();
             }
         });
+        button4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                messageThread = new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            // socket = new Socket(serverIP, serverPort);
+                            //out = new OutputStreamWriter(socket.getOutputStream());
+                            // BufferedWriter writer = new BufferedWriter(out);
+                            message = "accept_all";
+                            writer.write(message);
+                            writer.newLine();
+                            writer.flush();
+                            //writer.close();
+                            //out.close();
+                            //socket.close();
+                            messageThread.interrupt();
 
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                    }
+                });
+
+                messageThread.start();
+            }
+        });
+        button5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                messageThread = new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            // socket = new Socket(serverIP, serverPort);
+                            //out = new OutputStreamWriter(socket.getOutputStream());
+                            // BufferedWriter writer = new BufferedWriter(out);
+                            message = "full";
+                            writer.write(message);
+                            writer.newLine();
+                            writer.flush();
+                            //writer.close();
+                            //out.close();
+                            //socket.close();
+                            messageThread.interrupt();
+
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
+                    }
+                });
+
+                messageThread.start();
+            }
+        });
 
     }
 

@@ -1,0 +1,974 @@
+1693331986561	geckodriver	INFO	Listening on 127.0.0.1:51641
+1693331989663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "51642" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofilehhy6x4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693331990855	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693331991169	Marionette	INFO	Listening on port 51651
+WebDriver BiDi listening on ws://127.0.0.1:51642
+Read port: 51651
+1693331991838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51642/devtools/browser/2db04655-13c4-422e-b687-6810c0ac0244
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+1693332000728	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 6492, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16572, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 6492, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16572, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://pagead2.googlesyndication.com/bg/F8SkcvzQj7M3-2pXT2CJHOka8GJR2_XQE30kFDFsEbE.js line 2 > eval line 2757 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/F8SkcvzQj7M3-2pXT2CJHOka8GJR2_XQE30kFDFsEbE.js line 2 > eval line 4893 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 17280, MediaDecoderStateMachine #1] WARNING: 24905cb4ce0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/6kl8isidqelkPjLu32IEGM2mfapB_vlJxeLVpgibNKM.js line 2 > eval line 6435 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/desktop/cb097287/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js, line 96: Script terminated by timeout at:
+window.requestAnimationFrame/<@https://www.youtube.com/s/desktop/cb097287/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js:96:152
+
+JavaScript error: resource://gre/actors/AudioPlaybackChild.sys.mjs, line 17: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1693332070677	Marionette	INFO	Stopped listening on port 51651
+Dynamically enable window occlusion 1
+[Parent 6492, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16572, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 6492, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16572, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 6492, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16572, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 6492, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16572, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 6492, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16572, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 6492, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16572, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 6492, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 16572, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693332499976	geckodriver	INFO	Listening on 127.0.0.1:51940
+1693332502997	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "51941" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofile0uYeFC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693332503774	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693332504061	Marionette	INFO	Listening on port 51949
+WebDriver BiDi listening on ws://127.0.0.1:51941
+Read port: 51949
+1693332504445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51941/devtools/browser/775de3bb-d437-44fb-a820-8e67e00c6eeb
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+[Parent 17148, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 1652, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693332513875	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 17148, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 1652, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Child 16024, MediaDecoderStateMachine #1] WARNING: 233c8c45ef0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://pagead2.googlesyndication.com/bg/F8SkcvzQj7M3-2pXT2CJHOka8GJR2_XQE30kFDFsEbE.js line 2 > eval line 5419 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 16024, MediaDecoderStateMachine #1] WARNING: 233c8c45ef0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/6kl8isidqelkPjLu32IEGM2mfapB_vlJxeLVpgibNKM.js line 2 > eval line 4509 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/F8SkcvzQj7M3-2pXT2CJHOka8GJR2_XQE30kFDFsEbE.js line 2 > eval line 3721 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 16024, MediaDecoderStateMachine #1] WARNING: 233d58bb9b0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+[Child 16024, MediaDecoderStateMachine #1] WARNING: 233d58bb9b0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/6kl8isidqelkPjLu32IEGM2mfapB_vlJxeLVpgibNKM.js line 2 > eval line 4509 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 16024, MediaDecoderStateMachine #1] WARNING: 233d1546ef0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://pagead2.googlesyndication.com/bg/F8SkcvzQj7M3-2pXT2CJHOka8GJR2_XQE30kFDFsEbE.js line 2 > eval line 7330 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/6kl8isidqelkPjLu32IEGM2mfapB_vlJxeLVpgibNKM.js line 2 > eval line 4509 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 16024, MediaDecoderStateMachine #1] WARNING: 233d56ed340 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/6kl8isidqelkPjLu32IEGM2mfapB_vlJxeLVpgibNKM.js line 2 > eval line 4509 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 16024, MediaDecoderStateMachine #1] WARNING: 233d56ed340 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+[Child 16024, MediaDecoderStateMachine #1] WARNING: 233d5622340 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+[Child 16024, MediaDecoderStateMachine #1] WARNING: 233d5622340 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+[Child 16024, MediaDecoderStateMachine #1] WARNING: 233d5622340 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/6kl8isidqelkPjLu32IEGM2mfapB_vlJxeLVpgibNKM.js line 2 > eval line 4509 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/c153b631/player_ias.vflset/en_US/base.js, line 3336: Script terminated by timeout at:
+UL@https://www.youtube.com/s/player/c153b631/player_ias.vflset/en_US/base.js:3336:16
+g.k.kz@https://www.youtube.com/s/player/c153b631/player_ias.vflset/en_US/base.js:9818:44
+g.k.kz@https://www.youtube.com/s/player/c153b631/player_ias.vflset/en_US/base.js:11349:69
+g.k.kz@https://www.youtube.com/s/player/c153b631/player_ias.vflset/en_US/base.js:11497:81
+g.k.getProgressState@https://www.youtube.com/s/player/c153b631/player_ias.vflset/en_US/base.js:9590:150
+xT@https://www.youtube.com/s/player/c153b631/player_ias.vflset/en_US/base.js:4758:36
+g.k.Hc@https://www.youtube.com/s/player/c153b631/player_ias.vflset/en_US/base.js:10312:21
+g.k.bf@https://www.youtube.com/s/player/c153b631/player_ias.vflset/en_US/base.js:10442:184
+g.k.qw@https://www.youtube.com/s/player/c153b631/player_ias.vflset/en_US/base.js:10444:24
+g.k.B1@https://www.youtube.com/s/player/c153b631/player_ias.vflset/en_US/base.js:8134:65
+window.requestAnimationFrame/<@https://www.youtube.com/s/desktop/cb097287/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js:96:192
+
+1693332752154	Marionette	INFO	Stopped listening on port 51949
+Dynamically enable window occlusion 1
+[Parent 17148, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 1652, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 17148, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 1652, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: resource://gre/actors/AudioPlaybackChild.sys.mjs, line 17: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+[Parent 17148, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 1652, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 17148, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 1652, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 17148, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 1652, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 17148, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 1652, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 17148, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 1652, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693336271381	geckodriver	INFO	Listening on 127.0.0.1:63069
+1693336274398	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "63070" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofileSiTbP9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693336274716	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693336274826	Marionette	INFO	Listening on port 63079
+WebDriver BiDi listening on ws://127.0.0.1:63070
+Read port: 63079
+1693336275039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63070/devtools/browser/12c1010c-1892-48d3-96a4-662d9a31dbd6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693336280896	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Child 17136, MediaDecoderStateMachine #1] WARNING: Decoder=1f4b8742b00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 17136, MediaDecoderStateMachine #1] WARNING: Decoder=1f4b8742b00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript warning: https://www.youtube.com/s/player/c153b631/player_ias.vflset/en_US/base.js, line 10527: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693336636028	Marionette	INFO	Stopped listening on port 63079
+Dynamically enable window occlusion 1
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+[Parent 17024, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 9472, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+base.js, line 10527: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 6921: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js, line 54: TypeError: a is null
+JavaScript warning: https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 2542: Script terminated by timeout at:
+mp.prototype.transition@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:2542:33
+UH/<@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:8403:114
+
+1693336555475	Marionette	INFO	Stopped listening on port 54890
+Dynamically enable window occlusion 1
+[Parent 18456, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 19032, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 18456, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 19032, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 18456, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 19032, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 18456, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 19032, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 18456, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 19032, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693336804075	geckodriver	INFO	Listening on 127.0.0.1:49805
+1693336807178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "49806" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofile9JTHKI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693336807660	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693336807781	Marionette	INFO	Listening on port 49814
+WebDriver BiDi listening on ws://127.0.0.1:49806
+Read port: 49814
+1693336808061	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49806/devtools/browser/78e6a80e-56c8-4f3e-a6ee-3fab4901514c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+[Parent 7312, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 964, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693336813188	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 7312, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 964, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693336830564	Marionette	INFO	Stopped listening on port 49814
+Dynamically enable window occlusion 1
+[Parent 7312, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 964, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 7312, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 964, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 7312, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 964, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 7312, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 964, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693336914697	geckodriver	INFO	Listening on 127.0.0.1:58909
+1693336917776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "58910" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofilehHqTsA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693336918040	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693336918143	Marionette	INFO	Listening on port 58917
+WebDriver BiDi listening on ws://127.0.0.1:58910
+Read port: 58917
+1693336918377	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58910/devtools/browser/e6079453-96e1-4998-a8b3-1843a82d5e49
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+[Parent 15084, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13228, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693336931052	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 15084, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13228, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 2542: Script terminated by timeout at:
+mp.prototype.transition@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:2542:33
+UH/<@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:8403:114
+
+1693336999416	Marionette	INFO	Stopped listening on port 58917
+Dynamically enable window occlusion 1
+[Parent 15084, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13228, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15084, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13228, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15084, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13228, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15084, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13228, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15084, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 13228, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693337013840	geckodriver	INFO	Listening on 127.0.0.1:59100
+1693337016918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "59101" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofilepI7Amd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693337017164	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693337017269	Marionette	INFO	Listening on port 59109
+WebDriver BiDi listening on ws://127.0.0.1:59101
+Read port: 59109
+1693337017485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59101/devtools/browser/ab06e6ae-0649-43cd-91a1-2c4a27372e29
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+[Parent 14584, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6440, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693337024992	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 14584, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6440, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Child 8708, MediaDecoderStateMachine #1] WARNING: Decoder=1668d943700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 8708, MediaDecoderStateMachine #1] WARNING: Decoder=1668d943700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+JavaScript warning: https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 2542: Script terminated by timeout at:
+mp.prototype.transition@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:2542:33
+UH/<@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:8403:114
+
+1693337062370	Marionette	INFO	Stopped listening on port 59109
+Dynamically enable window occlusion 1
+[Parent 14584, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6440, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 14584, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6440, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 14584, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6440, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 14584, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6440, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 14584, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6440, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693337098628	geckodriver	INFO	Listening on 127.0.0.1:59297
+1693337101673	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "59298" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofilehU4ZQ8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693337101918	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693337102019	Marionette	INFO	Listening on port 59305
+WebDriver BiDi listening on ws://127.0.0.1:59298
+Read port: 59305
+1693337102232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59298/devtools/browser/3e2dd73f-cf39-46a0-bf45-2bd56c39c946
+[Parent 12836, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8016, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.en.lgy1ZrGod48.es5.O/ck=boq-identity.ConsentUi.UXYfSv6kGKU.L.F4.O/am=AiAKswU/d=1/exm=A7fCU,BBI74,BVgquf,COQbmf,EEDORb,EFQ78c,GkRiKb,IZT63,JNoxi,KG2eXe,KUM7Z,L1AAkb,LEikZe,MdUzUe,Mlhmy,MpJwZc,NwH0H,O1Gjze,O6y8ed,OTA3Ae,OgOVNe,OmgaI,PrPYRd,QIhFr,RMhBfe,SdcwHb,SpsfSb,U0aPgd,UUJqVe,Uas9Hd,Ulmmrd,V3dDOb,VwDzFe,WpP9Yc,XVMNvd,YTxL4,Z5uLle,ZfAoz,ZwDk9d,_b,_r,_tp,aW3pY,aurFic,byfTOb,e5qFLc,fKUV3e,gychg,hc6Ubd,kWgXee,lsjVmc,lwddkf,m9oV,n73qwf,ovKuLd,pjICDe,pw70Gc,s39S4,vjKJJ,w9hDv,ws9Tlc,xQtZb,xUdipf,y5vRwf,yDVVkb,zbML3c,zr1jrb/excm=_b,_r,_tp,mainview/ed=1/wt=2/ujg=1/rs=AOaEmlHHvCi4kTKiSq-6ny5on8CdRDfTYw/ee=BcQPH:lOY4De;EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;Erl4fe:FloWmf;JsbNhc:Xd8iUd;LBgRLc:SdcwHb;Me32dd:MEeYgc;NPKaK:SdcwHb;NSEoX:lazG7b;Oj465e:KG2eXe;Pjplud:EEDORb;QGR0gd:Mlhmy;SNUn3:ZwDk9d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;eBAeSb:zbML3c;iFQyKf:QIhFr;io8t5d:yDVVkb;kMFpHd:OTA3Ae;nAFL3:s39S4;oGtAuc:sOXFj;pXdRYb:MdUzUe;qddgKe:xQtZb;sP4Vbe:VwDzFe;uY49fb:COQbmf;ul9GGd:VDovNc;vNjB7d:YTxL4;wR5FRb:O1Gjze;xqZiqf:BBI74;yxTchf:KUM7Z;zxnPse:GkRiKb/m=RqjULd, line 45: Script terminated by timeout at:
+e@https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.en.lgy1ZrGod48.es5.O/ck=boq-identity.ConsentUi.UXYfSv6kGKU.L.F4.O/am=AiAKswU/d=1/exm=A7fCU,BBI74,BVgquf,COQbmf,EEDORb,EFQ78c,GkRiKb,IZT63,JNoxi,KG2eXe,KUM7Z,L1AAkb,LEikZe,MdUzUe,Mlhmy,MpJwZc,NwH0H,O1Gjze,O6y8ed,OTA3Ae,OgOVNe,OmgaI,PrPYRd,QIhFr,RMhBfe,SdcwHb,SpsfSb,U0aPgd,UUJqVe,Uas9Hd,Ulmmrd,V3dDOb,VwDzFe,WpP9Yc,XVMNvd,YTxL4,Z5uLle,ZfAoz,ZwDk9d,_b,_r,_tp,aW3pY,aurFic,byfTOb,e5qFLc,fKUV3e,gychg,hc6Ubd,kWgXee,lsjVmc,lwddkf,m9oV,n73qwf,ovKuLd,pjICDe,pw70Gc,s39S4,vjKJJ,w9hDv,ws9Tlc,xQtZb,xUdipf,y5vRwf,yDVVkb,zbML3c,zr1jrb/excm=_b,_r,_tp,mainview/ed=1/wt=2/ujg=1/rs=AOaEmlHHvCi4kTKiSq-6ny5on8CdRDfTYw/ee=BcQPH:lOY4De;EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;Erl4fe:FloWmf;JsbNhc:Xd8iUd;LBgRLc:SdcwHb;Me32dd:MEeYgc;NPKaK:SdcwHb;NSEoX:lazG7b;Oj465e:KG2eXe;Pjplud:EEDORb;QGR0gd:Mlhmy;SNUn3:ZwDk9d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;eBAeSb:zbML3c;iFQyKf:QIhFr;io8t5d:yDVVkb;kMFpHd:OTA3Ae;nAFL3:s39S4;oGtAuc:sOXFj;pXdRYb:MdUzUe;qddgKe:xQtZb;sP4Vbe:VwDzFe;uY49fb:COQbmf;ul9GGd:VDovNc;vNjB7d:YTxL4;wR5FRb:O1Gjze;xqZiqf:BBI74;yxTchf:KUM7Z;zxnPse:GkRiKb/m=RqjULd:45:33
+Iha/<@https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.en.lgy1ZrGod48.es5.O/ck=boq-identity.ConsentUi.UXYfSv6kGKU.L.F4.O/am=AiAKswU/d=1/exm=A7fCU,BBI74,BVgquf,COQbmf,EEDORb,EFQ78c,GkRiKb,IZT63,JNoxi,KG2eXe,KUM7Z,L1AAkb,LEikZe,MdUzUe,Mlhmy,MpJwZc,NwH0H,O1Gjze,O6y8ed,OTA3Ae,OgOVNe,OmgaI,PrPYRd,QIhFr,RMhBfe,SdcwHb,SpsfSb,U0aPgd,UUJqVe,Uas9Hd,Ulmmrd,V3dDOb,VwDzFe,WpP9Yc,XVMNvd,YTxL4,Z5uLle,ZfAoz,ZwDk9d,_b,_r,_tp,aW3pY,aurFic,byfTOb,e5qFLc,fKUV3e,gychg,hc6Ubd,kWgXee,lsjVmc,lwddkf,m9oV,n73qwf,ovKuLd,pjICDe,pw70Gc,s39S4,vjKJJ,w9hDv,ws9Tlc,xQtZb,xUdipf,y5vRwf,yDVVkb,zbML3c,zr1jrb/excm=_b,_r,_tp,mainview/ed=1/wt=2/ujg=1/rs=AOaEmlHHvCi4kTKiSq-6ny5on8CdRDfTYw/ee=BcQPH:lOY4De;EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;Erl4fe:FloWmf;JsbNhc:Xd8iUd;LBgRLc:SdcwHb;Me32dd:MEeYgc;NPKaK:SdcwHb;NSEoX:lazG7b;Oj465e:KG2eXe;Pjplud:EEDORb;QGR0gd:Mlhmy;SNUn3:ZwDk9d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;eBAeSb:zbML3c;iFQyKf:QIhFr;io8t5d:yDVVkb;kMFpHd:OTA3Ae;nAFL3:s39S4;oGtAuc:sOXFj;pXdRYb:MdUzUe;qddgKe:xQtZb;sP4Vbe:VwDzFe;uY49fb:COQbmf;ul9GGd:VDovNc;vNjB7d:YTxL4;wR5FRb:O1Gjze;xqZiqf:BBI74;yxTchf:KUM7Z;zxnPse:GkRiKb/m=RqjULd:46:30
+c@https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.en.lgy1ZrGod48.es5.O/ck=boq-identity.ConsentUi.UXYfSv6kGKU.L.F4.O/am=AiAKswU/d=1/exm=A7fCU,BBI74,BVgquf,COQbmf,EEDORb,EFQ78c,GkRiKb,IZT63,JNoxi,KG2eXe,KUM7Z,L1AAkb,LEikZe,MdUzUe,Mlhmy,MpJwZc,NwH0H,O1Gjze,O6y8ed,OTA3Ae,OgOVNe,OmgaI,PrPYRd,QIhFr,RMhBfe,SdcwHb,SpsfSb,U0aPgd,UUJqVe,Uas9Hd,Ulmmrd,V3dDOb,VwDzFe,WpP9Yc,XVMNvd,YTxL4,Z5uLle,ZfAoz,ZwDk9d,_b,_r,_tp,aW3pY,aurFic,byfTOb,e5qFLc,fKUV3e,gychg,hc6Ubd,kWgXee,lsjVmc,lwddkf,m9oV,n73qwf,ovKuLd,pjICDe,pw70Gc,s39S4,vjKJJ,w9hDv,ws9Tlc,xQtZb,xUdipf,y5vRwf,yDVVkb,zbML3c,zr1jrb/excm=_b,_r,_tp,mainview/ed=1/wt=2/ujg=1/rs=AOaEmlHHvCi4kTKiSq-6ny5on8CdRDfTYw/ee=BcQPH:lOY4De;EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;Erl4fe:FloWmf;JsbNhc:Xd8iUd;LBgRLc:SdcwHb;Me32dd:MEeYgc;NPKaK:SdcwHb;NSEoX:lazG7b;Oj465e:KG2eXe;Pjplud:EEDORb;QGR0gd:Mlhmy;SNUn3:ZwDk9d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;eBAeSb:zbML3c;iFQyKf:QIhFr;io8t5d:yDVVkb;kMFpHd:OTA3Ae;nAFL3:s39S4;oGtAuc:sOXFj;pXdRYb:MdUzUe;qddgKe:xQtZb;sP4Vbe:VwDzFe;uY49fb:COQbmf;ul9GGd:VDovNc;vNjB7d:YTxL4;wR5FRb:O1Gjze;xqZiqf:BBI74;yxTchf:KUM7Z;zxnPse:GkRiKb/m=RqjULd:41:1958
+
+1693337119153	Marionette	INFO	Stopped listening on port 59305
+Dynamically enable window occlusion 1
+[Parent 12836, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8016, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 12836, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8016, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 12836, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8016, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 12836, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8016, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 12836, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8016, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693337688430	geckodriver	INFO	Listening on 127.0.0.1:59492
+1693337691519	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "59493" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofilexPLvJ2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693337691784	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693337691883	Marionette	INFO	Listening on port 59500
+WebDriver BiDi listening on ws://127.0.0.1:59493
+Read port: 59500
+1693337692127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59493/devtools/browser/cf164e28-87b9-4e75-86ba-bcc4cb673809
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+[Parent 848, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 2368, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693337697141	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 848, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 2368, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693337699433	Marionette	INFO	Stopped listening on port 59500
+JavaScript warning: https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 3533: Script terminated by timeout at:
+xt@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3533:59
+m@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3588:83
+Bt</a.prototype._runEffectsForTemplate@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3589:34
+Bt</a.prototype._propagatePropertyChanges@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3587:145
+Bt</a.prototype._propertiesChanged@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3585:31
+SMa</b.prototype._flushProperties@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3456:200
+Bt</a.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3583:35
+Ct</a.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3655:131
+QPa</a.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3966:48
+vu</a.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4066:73
+OQa/e.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4128:48
+SMa</b.prototype._enableProperties@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3455:209
+vu</a.prototype._enableProperties@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4055:98
+WMa</e.prototype.connectedCallback@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3475:119
+Ct</a.prototype.connectedCallback@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3654:140
+QPa</a.prototype.connectedCallback@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3967:103
+vu</a.prototype.connectedCallback@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4057:157
+attachShadow@https://www.youtube.com/s/desktop/cb097287/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:95:360
+k.attachShadow@https://www.youtube.com/s/desktop/cb097287/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:123:124
+Ct</a.prototype._attachDom@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3657:96
+Ct</a.prototype._readyClients@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3656:70
+Bt</a.prototype._flushClients@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3579:125
+Bt</a.prototype._propertiesChanged@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3585:69
+SMa</b.prototype._flushProperties@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3456:200
+Bt</a.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3583:35
+Ct</a.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3655:131
+QPa</a.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3966:48
+vu</a.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4066:73
+OQa/e.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4128:48
+SMa</b.prototype._enableProperties@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3455:209
+vu</a.prototype._enableProperties@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4055:98
+WMa</e.prototype.connectedCallback@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3475:119
+Ct</a.prototype.connectedCallback@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3654:140
+QPa</a.prototype.connectedCallback@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3967:103
+vu</a.prototype.connectedCallback@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4057:157
+insertBefore@https://www.youtube.com/s/desktop/cb097287/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:64:462
+appendChild@https://www.youtube.com/s/desktop/cb097287/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:65:117
+k.appendChild@https://www.youtube.com/s/desktop/cb097287/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:121:419
+stampDomArray_@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:12249:402
+rendererStamperApplyChangeRecord_/e<@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:12241:61
+e@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:12214:120
+S@https://www.youtube.com/s/desktop/cb097287/jsbin/scheduler.vflset/scheduler.js:45:19
+V@https://www.youtube.com/s/desktop/cb097287/jsbin/scheduler.vflset/scheduler.js:54:415
+g.S@https://www.youtube.com/s/desktop/cb097287/jsbin/scheduler.vflset/scheduler.js:50:84
+window.requestAnimationFrame/<@https://www.youtube.com/s/desktop/cb097287/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js:96:192
+
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+[Parent 848, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 2368, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 848, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 2368, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 848, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 2368, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 848, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 2368, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 848, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 2368, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 848, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 2368, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693337710126	geckodriver	INFO	Listening on 127.0.0.1:59662
+1693337713185	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "59663" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofile6oTtoQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693337713431	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693337713533	Marionette	INFO	Listening on port 59670
+WebDriver BiDi listening on ws://127.0.0.1:59663
+Read port: 59670
+1693337713781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59663/devtools/browser/8960b0ca-1bb4-4ecd-9b54-b0c39edd3079
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+[Parent 11876, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6820, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693337719736	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 11876, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6820, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11876, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6820, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 2542: Script terminated by timeout at:
+mp.prototype.transition@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:2542:33
+UH/<@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:8403:114
+
+1693337811752	Marionette	INFO	Stopped listening on port 59670
+Dynamically enable window occlusion 1
+[Parent 11876, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6820, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11876, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6820, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11876, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6820, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11876, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6820, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 11876, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 6820, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+/www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3655:62
+QPa</a.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3966:48
+vu</a.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4066:73
+OQa/e.prototype.ready@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4128:48
+SMa</b.prototype._enableProperties@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3455:209
+vu</a.prototype._enableProperties@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4055:98
+WMa</e.prototype.connectedCallback@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3475:119
+Ct</a.prototype.connectedCallback@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3654:140
+QPa</a.prototype.connectedCallback@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3967:103
+vu</a.prototype.connectedCallback@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4057:157
+insertBefore@https://www.youtube.com/s/desktop/cb097287/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:64:462
+appendChild@https://www.youtube.com/s/desktop/cb097287/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:65:117
+k.appendChild@https://www.youtube.com/s/desktop/cb097287/jsbin/webcomponents-sd.vflset/webcomponents-sd.js:121:419
+stampDomArray_@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:12249:402
+rendererStamperApplyChangeRecord_/e<@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:12241:61
+e@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:12214:120
+S@https://www.youtube.com/s/desktop/cb097287/jsbin/scheduler.vflset/scheduler.js:45:19
+V@https://www.youtube.com/s/desktop/cb097287/jsbin/scheduler.vflset/scheduler.js:54:415
+g.S@https://www.youtube.com/s/desktop/cb097287/jsbin/scheduler.vflset/scheduler.js:50:84
+window.requestAnimationFrame/<@https://www.youtube.com/s/desktop/cb097287/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js:96:192
+
+[Parent 2700, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10464, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+[Parent 2700, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10464, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 2700, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10464, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 2700, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10464, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 2700, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[Parent 2700, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10464, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[GPU 10464, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693338277287	geckodriver	INFO	Listening on 127.0.0.1:60080
+1693338280372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "60081" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofile8pdEtp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693338280623	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693338280723	Marionette	INFO	Listening on port 60088
+WebDriver BiDi listening on ws://127.0.0.1:60081
+Read port: 60088
+1693338280964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60081/devtools/browser/e440326b-ec4a-441c-9278-93c8f1725164
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+[Parent 3048, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8168, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693338287542	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 3048, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8168, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693338290171	Marionette	INFO	Stopped listening on port 60088
+JavaScript warning: https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 3381: Script terminated by timeout at:
+pMa/a[b]@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3381:105
+OQa/e.prototype.created@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4124:116
+RB/a[b]@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:6129:152
+vu</a.prototype._initializeProperties@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4063:313
+b@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3439:789
+a@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3482:23
+b@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3497:50
+a@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3560:62
+e@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3470:36
+a@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3643:40
+b@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3797:51
+a@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3963:223
+a@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4050:293
+e@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:4122:76
+g@https://www.youtube.com/s/desktop/cb097287/jsbin/custom-elements-es5-adapter.vflset/custom-elements-es5-adapter.js:11:117
+JC@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:6447:296
+createComponent_@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:12253:103
+stampDomArray_@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:12249:253
+rendererStamperApplyChangeRecord_/e<@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:12241:61
+e@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:12214:120
+S@https://www.youtube.com/s/desktop/cb097287/jsbin/scheduler.vflset/scheduler.js:45:19
+V@https://www.youtube.com/s/desktop/cb097287/jsbin/scheduler.vflset/scheduler.js:54:415
+g.S@https://www.youtube.com/s/desktop/cb097287/jsbin/scheduler.vflset/scheduler.js:50:84
+window.requestAnimationFrame/<@https://www.youtube.com/s/desktop/cb097287/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js:96:192
+
+[Parent 3048, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8168, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.youtube.com/playlist?list=PLcbmXHxkso-Muh0oZsTuMRNxOo4J_IGxU&cbrd=1&themeRefresh=1, line 12: TypeError: can't access dead object
+[Parent 3048, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8168, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 3048, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8168, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 3048, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8168, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 3048, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 8168, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693338328444	geckodriver	INFO	Listening on 127.0.0.1:60245
+1693338331531	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "60246" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofileMypLzm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693338331778	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693338331879	Marionette	INFO	Listening on port 60254
+WebDriver BiDi listening on ws://127.0.0.1:60246
+Read port: 60254
+1693338332087	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60246/devtools/browser/2a960829-c7a4-4f3b-b7ef-789f9d8097cc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+[Parent 792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 7548, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693338351839	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 7548, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 7548, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 2542: Script terminated by timeout at:
+mp.prototype.transition@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:2542:33
+UH/<@https://www.youtube.com/s/desktop/cb097287/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:8403:114
+
+1693338420785	Marionette	INFO	Stopped listening on port 60254
+Dynamically enable window occlusion 1
+[Parent 792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 7548, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 7548, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 7548, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 7548, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[Parent 792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 7548, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[GPU 7548, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693338435911	geckodriver	INFO	Listening on 127.0.0.1:60451
+1693338438994	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "60452" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofileHVfwga"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693338439241	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693338439341	Marionette	INFO	Listening on port 60459
+WebDriver BiDi listening on ws://127.0.0.1:60452
+Read port: 60459
+1693338439626	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60452/devtools/browser/0aeab293-dc9b-45ec-8eb6-af4256f018b4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+1693338445559	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 10748, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 14500, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 10748, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 14500, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2291: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2291: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2291: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2291: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2291: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1693338510412	Marionette	INFO	Stopped listening on port 60459
+Dynamically enable window occlusion 1
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+Shutting down due to socket process crash.
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1693426974158	geckodriver	INFO	Listening on 127.0.0.1:50912
+1693426977215	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "50913" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofilezs6gjn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693426978015	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693426978712	Marionette	INFO	Listening on port 50921
+WebDriver BiDi listening on ws://127.0.0.1:50913
+Read port: 50921
+1693426979270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50913/devtools/browser/44ffafeb-5cfc-4969-839c-53884826b202
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+1693426987133	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 15956, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 17240, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15956, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 17240, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Child 4244, MediaDecoderStateMachine #1] WARNING: 232e2c9aac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+[Child 4244, MediaDecoderStateMachine #1] WARNING: 232e2c9aac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/Rwg4UwpuBvlqb-xfb94XQEYvQv-cEpArHjSh9419ZcU.js line 2 > eval line 3885 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/desktop/cfd03dbf/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 2542: Script terminated by timeout at:
+mp.prototype.transition@https://www.youtube.com/s/desktop/cfd03dbf/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:2542:33
+UH/<@https://www.youtube.com/s/desktop/cfd03dbf/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:8403:114
+
+1693427018758	Marionette	INFO	Stopped listening on port 50921
+Dynamically enable window occlusion 1
+[Parent 15956, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 17240, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15956, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 17240, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15956, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 17240, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15956, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 17240, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15956, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 17240, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15956, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 17240, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693427299580	geckodriver	INFO	Listening on 127.0.0.1:51107
+1693427302650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "51108" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofilewL7NOJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693427303133	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693427303318	Marionette	INFO	Listening on port 51116
+WebDriver BiDi listening on ws://127.0.0.1:51108
+Read port: 51116
+1693427303574	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51108/devtools/browser/4b7231ce-7fa5-48e1-83c7-2d0389b2e965
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+1693427311255	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 15792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10068, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10068, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Child 15928, MediaDecoderStateMachine #1] WARNING: 1649bb06ab0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/Rwg4UwpuBvlqb-xfb94XQEYvQv-cEpArHjSh9419ZcU.js line 2 > eval line 6377 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/desktop/cfd03dbf/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 2542: Script terminated by timeout at:
+mp.prototype.transition@https://www.youtube.com/s/desktop/cfd03dbf/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:2542:33
+VH/<@https://www.youtube.com/s/desktop/cfd03dbf/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:8413:474
+
+1693427378741	Marionette	INFO	Stopped listening on port 51116
+Dynamically enable window occlusion 1
+[Parent 15792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10068, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10068, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10068, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10068, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10068, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 15792, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 10068, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693428806499	geckodriver	INFO	Listening on 127.0.0.1:51394
+1693428809550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "51395" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofileRL68tF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693428810022	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693428810201	Marionette	INFO	Listening on port 51402
+WebDriver BiDi listening on ws://127.0.0.1:51395
+Read port: 51402
+1693428810426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51395/devtools/browser/40d21a2e-a833-452e-8159-e3b3f129f51b
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+[Parent 16764, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 4960, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693428818040	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[Parent 16764, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 4960, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0w4HeoaYEDyr3MppZwiwXJgG2WIOQk_JViOVQEuG4uU.js line 2 > eval line 1830 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 13508, MediaDecoderStateMachine #1] WARNING: 1fd80e3cbd0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/Rwg4UwpuBvlqb-xfb94XQEYvQv-cEpArHjSh9419ZcU.js line 2 > eval line 3093 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 13508, MediaDecoderStateMachine #1] WARNING: 1fd85751350 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/Rwg4UwpuBvlqb-xfb94XQEYvQv-cEpArHjSh9419ZcU.js line 2 > eval line 3093 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/desktop/cfd03dbf/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 3496: Script terminated by timeout at:
+kNa/<@https://www.youtube.com/s/desktop/cfd03dbf/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:3496:60
+
+[Parent 16764, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 4960, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693428908013	Marionette	INFO	Stopped listening on port 51402
+Dynamically enable window occlusion 1
+[Parent 16764, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 4960, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 16764, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 4960, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 16764, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 4960, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 16764, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 4960, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 16764, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 4960, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 16764, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 4960, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693513104212	geckodriver	INFO	Listening on 127.0.0.1:58888
+1693513107289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "58889" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofilek5Igwi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693513107763	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693513107881	Marionette	INFO	Listening on port 58897
+WebDriver BiDi listening on ws://127.0.0.1:58889
+Read port: 58897
+1693513108178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58889/devtools/browser/c9fd6422-2190-40a1-8daf-2134ce4cc26b
+1693513113034	Marionette	INFO	Stopped listening on port 58897
+Dynamically enable window occlusion 1
+[Parent 9720, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15884, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+[Parent 9720, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15884, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 9720, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15884, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 9720, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15884, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 9720, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15884, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1693517224835	geckodriver	INFO	Listening on 127.0.0.1:50105
+1693517227923	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "50106" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofileUQdgbK"
+1693517295084	geckodriver	INFO	Listening on 127.0.0.1:50181
+1693517298149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "50182" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofile7ZnUCZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693517298592	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693517298783	Marionette	INFO	Listening on port 50198
+WebDriver BiDi listening on ws://127.0.0.1:50182
+Read port: 50198
+1693517299141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50182/devtools/browser/be9b6a44-d7a5-4987-b456-4fba68dc0c16
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1693517341755	Marionette	INFO	Stopped listening on port 50198
+Dynamically enable window occlusion 1
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+1693517467256	geckodriver	INFO	Listening on 127.0.0.1:50329
+1693517470292	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "50330" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofileAZHsaT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693517470726	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693517470911	Marionette	INFO	Listening on port 50337
+WebDriver BiDi listening on ws://127.0.0.1:50330
+Read port: 50337
+1693517471257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50330/devtools/browser/316d99a1-67f1-44c1-b94d-0f077236873e
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+Shutting down due to socket process crash.
+1693517546081	geckodriver	INFO	Listening on 127.0.0.1:50384
+1693517549117	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "50385" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofileDDOeAS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693517549588	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693517549770	Marionette	INFO	Listening on port 50393
+WebDriver BiDi listening on ws://127.0.0.1:50385
+Read port: 50393
+1693517550112	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50385/devtools/browser/dd80a233-bd1b-41c6-84ef-e4c03c80e6ed
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+Shutting down due to socket process crash.
+1693517646669	geckodriver	INFO	Listening on 127.0.0.1:50439
+1693517649718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "50440" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofile1B4wKQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693517650422	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693517650618	Marionette	INFO	Listening on port 50447
+WebDriver BiDi listening on ws://127.0.0.1:50440
+Read port: 50447
+1693517650948	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50440/devtools/browser/fcdf5b5c-78f3-4735-92a0-992237575d51
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1693518057302	geckodriver	INFO	Listening on 127.0.0.1:50617
+1693518060342	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "50618" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofilenjYcKw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693518060972	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693518061257	Marionette	INFO	Listening on port 50625
+WebDriver BiDi listening on ws://127.0.0.1:50618
+Read port: 50625
+1693518061598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50618/devtools/browser/c29f9eb4-96cf-4a2e-8fd3-041abddb3195
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1693518209806	geckodriver	INFO	Listening on 127.0.0.1:50678
+1693518212847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "50679" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofile8Sw05W"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693518213290	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693518213469	Marionette	INFO	Listening on port 50687
+WebDriver BiDi listening on ws://127.0.0.1:50679
+Read port: 50687
+1693518213786	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50679/devtools/browser/8b2e97f4-f4bb-4684-854d-384dead954c0
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1693518607115	geckodriver	INFO	Listening on 127.0.0.1:50788
+1693518610170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "50789" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofileHrPL8V"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693518610686	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693518610859	Marionette	INFO	Listening on port 50796
+WebDriver BiDi listening on ws://127.0.0.1:50789
+Read port: 50796
+1693518611206	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50789/devtools/browser/6769f354-488e-4ab4-b42e-0119ff3591e8
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/53FW8zYQTkJ6aaIrXR-nTnykNiqudoH54JKD_I7-wfM.js line 2 > eval line 3814 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/fVV-MN6RwrQ4B-VMAlqKh_6wLqAJCU5xhilRORsdIR0.js line 2 > eval line 5505 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/53FW8zYQTkJ6aaIrXR-nTnykNiqudoH54JKD_I7-wfM.js line 2 > eval line 94 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 10080, MediaDecoderStateMachine #1] WARNING: 2d1d7dbeac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/fVV-MN6RwrQ4B-VMAlqKh_6wLqAJCU5xhilRORsdIR0.js line 2 > eval line 6390 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 10080, MediaDecoderStateMachine #1] WARNING: 2d1c8b07890 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/fVV-MN6RwrQ4B-VMAlqKh_6wLqAJCU5xhilRORsdIR0.js line 2 > eval line 6390 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/0a835141/player_ias.vflset/en_US/base.js, line 11456: Script terminated by timeout at:
+g.k.getPlaybackRate@https://www.youtube.com/s/player/0a835141/player_ias.vflset/en_US/base.js:11456:29
+u_a@https://www.youtube.com/s/player/0a835141/player_ias.vflset/en_US/base.js:5704:75
+gY@https://www.youtube.com/s/player/0a835141/player_ias.vflset/en_US/base.js:6005:37
+WX@https://www.youtube.com/s/player/0a835141/player_ias.vflset/en_US/base.js:6012:59
+g.YX/this.Cg@https://www.youtube.com/s/player/0a835141/player_ias.vflset/en_US/base.js:5966:54
+g.k.va@https://www.youtube.com/s/player/0a835141/player_ias.vflset/en_US/base.js:8155:291
+g.EG.prototype.va@https://www.youtube.com/s/player/0a835141/player_ias.vflset/en_US/base.js:8537:72
+g.k.Cg@https://www.youtube.com/s/player/0a835141/player_ias.vflset/en_US/base.js:10649:171
+sSa/this.C@https://www.youtube.com/s/player/0a835141/player_ias.vflset/en_US/base.js:4984:132
+
+1693518799298	Marionette	INFO	Stopped listening on port 50796
+Dynamically enable window occlusion 1
+1693519197588	geckodriver	INFO	Listening on 127.0.0.1:50932
+1693519200639	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "50933" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofilelTlqW4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693519201439	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693519201718	Marionette	INFO	Listening on port 50940
+WebDriver BiDi listening on ws://127.0.0.1:50933
+Read port: 50940
+1693519202275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50933/devtools/browser/0c793102-4cfd-4ec0-b368-2dab050cdd7f
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+JavaScript warning: https://www.google.com/js/th/fVV-MN6RwrQ4B-VMAlqKh_6wLqAJCU5xhilRORsdIR0.js line 2 > eval line 11 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Shutting down due to socket process crash.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1690: Error: permitUnload is already running for this tab.
+1693519329069	geckodriver	INFO	Listening on 127.0.0.1:51031
+1693519332128	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "51032" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofileGPwRfV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693519332791	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693519333074	Marionette	INFO	Listening on port 51039
+WebDriver BiDi listening on ws://127.0.0.1:51032
+Read port: 51039
+1693519333605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51032/devtools/browser/4505b7d9-fb11-45a8-a85f-c0cd8bc98529
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://consent.youtube.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/53FW8zYQTkJ6aaIrXR-nTnykNiqudoH54JKD_I7-wfM.js line 2 > eval line 2346 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/53FW8zYQTkJ6aaIrXR-nTnykNiqudoH54JKD_I7-wfM.js line 2 > eval line 2308 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/53FW8zYQTkJ6aaIrXR-nTnykNiqudoH54JKD_I7-wfM.js line 2 > eval line 986 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/53FW8zYQTkJ6aaIrXR-nTnykNiqudoH54JKD_I7-wfM.js line 2 > eval line 7613 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Shutting down due to socket process crash.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1690: Error: permitUnload is already running for this tab.
+1693521602254	geckodriver	INFO	Listening on 127.0.0.1:51354
+1693521605319	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "51355" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofile3fcCuU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693521606031	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693521606313	Marionette	INFO	Listening on port 51363
+WebDriver BiDi listening on ws://127.0.0.1:51355
+Read port: 51363
+1693521606753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51355/devtools/browser/2545f981-a184-478a-8ebf-58c9f4f700d5
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/53FW8zYQTkJ6aaIrXR-nTnykNiqudoH54JKD_I7-wfM.js line 2 > eval line 5613 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/53FW8zYQTkJ6aaIrXR-nTnykNiqudoH54JKD_I7-wfM.js line 2 > eval line 7436 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/fVV-MN6RwrQ4B-VMAlqKh_6wLqAJCU5xhilRORsdIR0.js line 2 > eval line 5811 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1693521760679	geckodriver	INFO	Listening on 127.0.0.1:51487
+1693521763740	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "51488" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofileyMNIkY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693521764408	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693521764692	Marionette	INFO	Listening on port 51495
+WebDriver BiDi listening on ws://127.0.0.1:51488
+Read port: 51495
+1693521765192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51488/devtools/browser/41a3d95d-82cf-4973-a8a6-1dc6ee17abdc
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1693521772775	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 565))
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.sys.mjs, line 580: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: https://pagead2.googlesyndication.com/bg/53FW8zYQTkJ6aaIrXR-nTnykNiqudoH54JKD_I7-wfM.js line 2 > eval line 1461 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/fVV-MN6RwrQ4B-VMAlqKh_6wLqAJCU5xhilRORsdIR0.js line 2 > eval line 6236 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 864, MediaDecoderStateMachine #1] WARNING: 2c2f20e2240 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/fVV-MN6RwrQ4B-VMAlqKh_6wLqAJCU5xhilRORsdIR0.js line 2 > eval line 5010 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693521833620	geckodriver	INFO	Listening on 127.0.0.1:51583
+1693521836648	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--kiosk" "--remote-debugging-port" "51584" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\szabo\\AppData\\Local\\Temp\\rust_mozprofileMNqSGj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693521837302	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693521837579	Marionette	INFO	Listening on port 51592
+WebDriver BiDi listening on ws://127.0.0.1:51584
+Read port: 51592
+1693521838034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51584/devtools/browser/19b4172e-0623-4dd0-877d-85c0e2ebe2a3
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1693521846425	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/53FW8zYQTkJ6aaIrXR-nTnykNiqudoH54JKD_I7-wfM.js line 2 > eval line 90 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/fVV-MN6RwrQ4B-VMAlqKh_6wLqAJCU5xhilRORsdIR0.js line 2 > eval line 2814 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PictureInPicture.sys.mjs, line 556: TypeError: browser is null
+JavaScript error: resource://gre/modules/PictureInPicture.sys.mjs, line 556: TypeError: browser is null
+[Child 796, MediaDecoderStateMachine #1] WARNING: 237c1b7e240 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript warning: https://www.google.com/js/th/fVV-MN6RwrQ4B-VMAlqKh_6wLqAJCU5xhilRORsdIR0.js line 2 > eval line 1952 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down

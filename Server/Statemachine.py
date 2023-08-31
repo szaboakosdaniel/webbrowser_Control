@@ -1,18 +1,85 @@
+# File: Statemachine.py
+# Author: Szabo Akos Daniel
+# Description: This script demonstrates how to control a web browser programmatically.
+
 from statemachine import StateMachine, State
-import statemachine
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options
-import string
 import pyautogui
 import time
 import socket
 
 
-class BrowserControlMachine(StateMachine):
+
+#Youtube specific function using Selenium
+class YoutubeBrowser():
+        
+    driver="NULL"
+    URL_open="NULL"   
+
+#Start Stop Youtube video
+    def Play(self):
+        pyautogui.press('k')
+
+#Next video
+    def Next(self):
+        pyautogui.keyDown('shift')
+        pyautogui.press('n')
+        pyautogui.keyUp('shift')
+
+#Full screen
+    def Full(self):
+        pyautogui.press('f')
+#Start Browser    
+    def Start(self):
+        firefox_options = Options()
+        firefox_options.add_argument("--kiosk")  # Fullscreen mode
+        self.driver = webdriver.Firefox(options=firefox_options)
+        print("Ez oké?")
+#Open URL    
+    def Open(self):
+        print(self.URL_open)
+        self.driver.get(self.URL_open)
+        print("Betöltött")
+
+#Click Accept cookie button
+    def Accept_All(self):
+        wait = WebDriverWait(self.driver, 20)
+        button_locator = self.driver.find_element(By.XPATH,"//button[contains(.,'" + "Accept all" + "')]"); #Elfogadó gomb
+        try:
+            # Wait until the button is clickable
+            button_element = wait.until(EC.element_to_be_clickable(button_locator))
+            print("Gomb lathato")
+            # Click the button
+            button_element.click()
+        except Exception as e:
+            print("An error occurred:", str(e))
+
+#Click on Play_all  (play list)
+    def Play_All(self):
+        wait = WebDriverWait(self.driver, 20)
+        button_locator = self.driver.find_element(By.XPATH,"//a[contains(.,'" + "Play all" + "')]");
+        try:
+            # Wait until the button is clickable
+            button_element = wait.until(EC.element_to_be_clickable(button_locator))
+            print("Gomb lathato")
+            #Click the button
+            button_element.click()
+            time.sleep(5)
+            pyautogui.press('f')
+        except Exception as e:
+            print("An error occurred:", str(e))
+
+#Close browser
+    def Quit(self):
+        self.driver.quit()
+
+#StateMachine Class
+class BrowserControlMachine(StateMachine,YoutubeBrowser):
 #States for webbrowser control
     START= State(initial=True)
     INIT = State()
@@ -50,7 +117,9 @@ class BrowserControlMachine(StateMachine):
         self.server_port = 12345
         self.client_socket=None
         self.received_message="NULL"
+        self.decoded_message="NULL"
         self.server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.FFBrowser=YoutubeBrowser()
         self.on_enter_START()
 #Setters
     def set_server_ip(self, value):
@@ -63,6 +132,9 @@ class BrowserControlMachine(StateMachine):
         self.client_socket = value
 
     def set_received_message(self, value):
+        self.received_message = value
+
+    def set_decoded_message(self, value):
         self.received_message = value
 
     def set_server_socket(self, value):
@@ -79,6 +151,9 @@ class BrowserControlMachine(StateMachine):
         return self.client_socket
 
     def get_received_message(self):
+        return self.received_message
+    
+    def get_decoded_message(self):
         return self.received_message
 
     def get_server_socket(self):
@@ -118,11 +193,6 @@ class BrowserControlMachine(StateMachine):
         print(f"Kliens kapcsolódott: {client_address}")
         self.on_enter_WAIT_FOR_MESSAGE()
 
-    def on_WAIT_FOR_CONNECTION(self):
-       # self.state = self.cycle
-        print("itt vagy?")
-        return True
-        # Itt helyezd el a WAIT_FOR_CONNECTION állapotba tartozó kódodat
 
 #WAIT_FOR_MESSAGE
     def on_enter_WAIT_FOR_MESSAGE(self):
@@ -145,21 +215,49 @@ class BrowserControlMachine(StateMachine):
     #TCP/IP socket encrypton need to be implemented
     def on_enter_DECODE_MESSAGE(self):
         print("Üzenet dekodolasa...")
-        if self.received_message=="hello\n":
-            print("Üzenet erkezett:")#, self.no_device_foundreceived_message)
-            self.on_enter_EXECUTE_COMMAND()
-        else:
-            print("Ez nem üzenet...")
+        self.decoded_message=self.received_message #Decoding message need to implemented in this function
+        print(self.decoded_message)
+        print("Üzenet erkezett:")
+        self.on_enter_EXECUTE_COMMAND()
+        
 
  
 #EXECUTE_COMMAND
     def on_enter_EXECUTE_COMMAND(self):
-       print("Parancs vegrehajtasa...")
-       self.on_enter_WAIT_FOR_MESSAGE()
-        # Itt helyezd el az EXECUTE_COMMAND állapotba tartozó kódodat
+        
+        #Check if đ in the message
+        if 'đ' in self.decoded_message:
+            parts = self.decoded_message.split('đ') 
+            message=parts[0]
+        else:
+            message=self.decoded_message
+        
+        #if message open then opens the gcen url
+        if message=="open":
+            if self.FFBrowser.driver=="NULL":
+                self.FFBrowser.Start()
+            self.FFBrowser.URL_open=parts[1]
+            print(self.FFBrowser.URL_open)
+            self.FFBrowser.Open()
+            print("Parancs vegrehajtasa...")
+        elif message=="play_stop\n":
+            self.FFBrowser.Play()
+        elif message=="next\n":
+            self.FFBrowser.Next()
+        elif message=="full\n":  
+            self.FFBrowser.Full()
+        elif message=="accept_all\n":  
+            self.FFBrowser.Accept_All()
+        else:
+            print("Not command")
+
+        self.on_enter_WAIT_FOR_MESSAGE()
+
+
+  
 
 def main():
-    test=BrowserControlMachine()
+    test1=BrowserControlMachine()
 
 if __name__ == "__main__":
     main()
